@@ -57,13 +57,13 @@ const BestSelling = () => {
               Beds
             </button>
             <button
-              onClick={() =>{ setNavsActive("left-[179px]") , setSellingProduct('Chair')}}
+              onClick={() =>{ setNavsActive("left-[179px]") , setSellingProduct('Sofa')}}
               className="px-[15px] py-[7px] text-lg font-normal font-poppins text-[#1E1E1E] z-[1] "
             >
               Sofa
             </button>
             <button
-              onClick={() =>{ setNavsActive("left-[265px]") , setSellingProduct('Chair')}}
+              onClick={() =>{ setNavsActive("left-[265px]") , setSellingProduct('Lamp')}}
               className="px-[15px] py-[7px] text-lg font-normal font-poppins text-[#1E1E1E] z-[1] "
             >
               Lamp
