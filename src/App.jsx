@@ -5,6 +5,7 @@ import LayoutOne from './layouts/LayoutOne'
 import Home from './pages/Home'
 import CheckoutPage from './pages/CheckoutPage'
 import AllProducts from './pages/AllProducts'
+import ProductDetails from './components/ProductDetails'
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Route  index element={<Home />} /> 
       <Route   path='/checkout' element={< CheckoutPage/>} /> 
       <Route   path='/allProduct' element={< AllProducts/>} /> 
+      <Route   path='/productDetails' element={< ProductDetails/>} /> 
     </Route>
   ))
 
