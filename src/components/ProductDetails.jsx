@@ -1,120 +1,86 @@
-import { useParams, useSearchParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import BreadCrumb from "./Common/BreadCrumb";
 import allProducts from "../Db/Db";
 import { useEffect, useState } from "react";
-const ProductDetails = () => {
-  // ------------------- getting product info
-  const productParamsinfo = useParams();
-  const currentProductData = allProducts.filter((item) => {
-    return item.id == productParamsinfo.productId;
-  });
-  const [prodcutInfo, setProductInfo] = useState();
-  useEffect(() => {
-    currentProductData.map((item) => {
-      setProductInfo(item);
-    });
-  }, []);
 
-  console.log(prodcutInfo?.availableColors);
+const ProductDetails = () => {
+  const { productId, prodcutName } = useParams();
+  const [productInfo, setProductInfo] = useState(null);
+
+  useEffect(() => {
+    const foundProduct = allProducts.find((item) => item.id == productId);
+    setProductInfo(foundProduct);
+  }, [productId]);
+
   return (
-    <>
-      <section id="productDetails" className="pt-[80px]">
-        <BreadCrumb
-          pageName={"Products Details"}
-          productName={productParamsinfo.prodcutName}
-        />
-        <div className="container">
-          {/* ------------- product font view */}
-          <div className="flex flex-wrap gap-[60px]  mt-20 lg:pl-[200px]">
-            <div className="w-[300px] h-[300px] bg-gray-100 overflow-hidden">
-              <img src={prodcutInfo?.productImage} alt="productImage" />
-            </div>
-            <div className="productText">
-              <h2 className="text-2xl font-medium text-black">
-                {prodcutInfo?.productName}
-              </h2>
-              <h3 className="text-lg font-semibold text-primary mt-5">
-                Price :{" "}
-                <span className="font-normal">
-                  {prodcutInfo?.productPrice}$
-                </span>
-              </h3>
-              <h3 className="text-[16px] font-semibold text-primary mt-5">
-                Size :{" "}
-                <span className="font-normal">
-                  w-{prodcutInfo?.specifications?.width} , h-
-                  {prodcutInfo?.specifications?.height} , depth-
-                  {prodcutInfo?.specifications?.depth} , weight-
-                  {prodcutInfo?.specifications?.weight}
-                </span>
-              </h3>
-              <h3 className="text-lg font-semibold text-primary mt-5">
-                Colors :
-              </h3>
-              <div className="flex items-center gap-3 mt-5">
-                {prodcutInfo?.availableColors.map((item) => {
-                  return (
-                    <button
-                      style={{ backgroundColor: item }}
-                      className="w-[20px] h-[20px] rounded-full relative"
-                    ></button>
-                  );
-                })}
-              </div>
-              <button className="w-[150px] h-[35px] bg-black text-[16px] font-normal text-white mt-5 rounded-lg active:scale-[1.1]">
-                Add to cart
-              </button>
-            </div>
+    <section className="pt-24 bg-[#FAFAFA] min-h-screen">
+      <BreadCrumb pageName="Product Details" productName={prodcutName} />
+
+      <div className="max-w-7xl mx-auto px-6 py-12">
+        {/* Main Product Card */}
+        <div className="bg-white shadow-md rounded-3xl p-10 grid md:grid-cols-2 gap-12 items-center">
+          {/* Product Image */}
+          <div className="bg-[#F5F5F5] p-6 rounded-2xl flex justify-center items-center">
+            <img
+              src={productInfo?.productImage}
+              alt={productInfo?.productName}
+              className="h-[320px] object-contain"
+            />
           </div>
-          <div className="  my-10 lg:pl-[200px]  ">
-            {/* ---------------- singel product title  */}
-            <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
-              <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">
-                Material
-              </h2>
-              <p className="text-[13px] font-poppins font-normal text-pretty ">
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique, saepe.
-              </p>
+
+          {/* Product Info */}
+          <div>
+            <h1 className="text-4xl font-semibold text-[#1E1E1E] mb-4">
+              {productInfo?.productName}
+            </h1>
+            <p className="text-xl text-[#FFA62F] font-semibold mb-4">
+              ${productInfo?.productPrice}
+            </p>
+
+            {/* Color Selection */}
+            <div className="mb-6">
+              <h3 className="text-md font-medium text-[#333] mb-2">Available Colors</h3>
+              <div className="flex gap-3">
+                {productInfo?.availableColors?.map((color, idx) => (
+                  <span
+                    key={idx}
+                    className="w-6 h-6 rounded-full border border-gray-300"
+                    style={{ backgroundColor: color }}
+                  ></span>
+                ))}
+              </div>
             </div>
-            {/* ---------------- singel product title  */}
-            <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
-              <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">
-                Material
-              </h2>
-              <p className="text-[13px] font-poppins font-normal text-pretty ">
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique, saepe.
-              </p>
+
+            {/* Product Specs */}
+            <div className="grid grid-cols-2 gap-4 text-sm text-gray-600 mb-6">
+              <p><strong>Width:</strong> {productInfo?.specifications?.width}</p>
+              <p><strong>Height:</strong> {productInfo?.specifications?.height}</p>
+              <p><strong>Depth:</strong> {productInfo?.specifications?.depth}</p>
+              <p><strong>Weight:</strong> {productInfo?.specifications?.weight}</p>
             </div>
-            {/* ---------------- singel product title  */}
-            <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
-              <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">
-                Material
-              </h2>
-              <p className="text-[13px] font-poppins font-normal text-pretty ">
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique, saepe.
-              </p>
-            </div>
-            {/* ---------------- singel product title  */}
-            <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
-              <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">
-                Material
-              </h2>
-              <p className="text-[13px] font-poppins font-normal text-pretty ">
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique, saepe.
-              </p>
-            </div>
+
+            <button className="mt-4 px-6 py-3 bg-[#0D1B39] text-white rounded-xl text-sm font-medium hover:bg-[#FFA62F] hover:text-black transition">
+              Add to Cart
+            </button>
           </div>
         </div>
-      </section>
-    </>
+
+        {/* Product Info Sections */}
+        <div className="grid md:grid-cols-2 gap-8 mt-16">
+          {[
+            { title: "Material", content: "Premium engineered wood and stainless steel base." },
+            { title: "Delivery Info", content: "Ships within 5–7 working days with tracking." },
+            { title: "Warranty & Return", content: "30-day return and 1-year product warranty." },
+            { title: "Care Instructions", content: "Wipe gently with a soft cloth. Avoid moisture." },
+          ].map((item, idx) => (
+            <div key={idx} className="bg-white rounded-2xl shadow p-6">
+              <h3 className="text-lg font-semibold text-[#0D1B39] mb-2">{item.title}</h3>
+              <p className="text-sm text-gray-600">{item.content}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 
