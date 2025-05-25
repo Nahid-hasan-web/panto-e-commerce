@@ -44,7 +44,7 @@ const AllProductCards = () => {
   return (
     <>
       <section id='AllProductCards' className='pt-10 w-full'>
-        <div className='flex gap-5 flex-wrap'>
+        <div className='flex gap-5 flex-wrap justify-center'>
           {currentProducts.map((item) => (
             <SingleProduct
               activeCart={() => hanelAddTocart(item.id)}

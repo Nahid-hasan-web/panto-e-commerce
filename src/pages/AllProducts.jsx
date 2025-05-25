@@ -8,7 +8,7 @@ const AllProducts = () => {
     <>
     <section className='pt-[80px]'>
         <BreadCrumb pagePathName={'/allProduct'}  pageName={'All Products'} />
-        <div className='flex  gap-[50px]'>
+        <div className='flex  flex-wrap lg:flex-nowrap gap-[50px]'>
             <ProductFilterSidenav />
             <AllProductCards />
         </div>

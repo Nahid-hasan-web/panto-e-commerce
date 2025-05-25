@@ -1,15 +1,59 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../assets/images/Panto.png";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { FiShoppingCart } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Cart from "./Cart";
+import { useSelector } from "react-redux";
 const ResponsiveNav = () => {
   const [showmenu, setShowmenu] = useState(false)
+  const location = useLocation();
   const [openCart, setOpenCart] = useState(false);
+  const sliceProductid = useSelector((state)=>state.cartProductid.value)
+  const[scrollCss ,setScrollCss] = useState('absolute')
+// ---------------- navbar items and path array 
+  const menuPageItem = [
+
+    {
+      "pageName": "Home",
+      "pagePath":"/"
+    },
+
+    {
+      "pageName": "Shop",
+      "pagePath":"/allProduct"
+    },
+
+    {
+      "pageName": "Contact",
+      "pagePath":"/contact"
+    },
+  ]
+
+
+
+  useEffect(() => {
+  
+  const handleScroll = () => {
+    if (window.scrollY > 300 || location.pathname !== '/') {
+      setScrollCss('fixed bg-[#222831] shadow-lg');
+    } else {
+      setScrollCss('absolute');
+    }
+  };
+
+  // Run it immediately on mount or route change
+  handleScroll();
+
+  window.addEventListener('scroll', handleScroll);
+
+  return () => window.removeEventListener('scroll', handleScroll);
+}, [location.pathname]);
+  
+  
   return (
     <>
-      <nav className="py-5 px-2 lg:hidden absolute w-full top-0 left-0 z-10">
+      <nav className={`py-5 px-2 lg:hidden absolute w-full top-0 left-0 z-10 ${scrollCss}`}>
         <div className="container">
           <div className="menu_row  flex justify-between items-center">
             <div className="menu_logo w-[100px]">
@@ -28,18 +72,14 @@ const ResponsiveNav = () => {
 
               <div className={` ${showmenu? 'scale-100' : 'scale-0'} duration-[.4s] w-[200px] p-3 bg-white rounded-[5px] absolute top-[120%]  right-0`}>
                 <ul className="flex  text-primary   flex-col gap-5 justify-center items-center text-lg font-normal">
+                  {
+                    menuPageItem.map((item) => (
                   <li className="cursor-pointer hover:text-gray-300 transition duration-300 ease-in-out">
-                    <Link to="/furniture">Furniture </Link>
+                    <Link to={item.pagePath}>{item.pageName} </Link>
                   </li>
-                  <li className="cursor-pointer hover:text-gray-300 transition duration-300 ease-in-out">
-                    <Link to="/shop">Shop</Link>
-                  </li>
-                  <li className="cursor-pointer hover:text-gray-300 transition duration-300 ease-in-out">
-                    <Link to="/about">About Us</Link>
-                  </li>
-                  <li className="cursor-pointer hover:text-gray-300 transition duration-300 ease-in-out">
-                    <Link to="/contact">Contact</Link>
-                  </li>
+                      
+                    ))
+                  }
                 </ul>
               </div>
             </div>

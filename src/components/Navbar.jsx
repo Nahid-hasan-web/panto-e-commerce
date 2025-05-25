@@ -23,10 +23,6 @@ const Navbar = () => {
       "pagePath":"/allProduct"
     },
     {
-      "pageName": "About Us",
-      "pagePath":"/"
-    },
-    {
       "pageName": "Contact",
       "pagePath":"/contact"
     },
