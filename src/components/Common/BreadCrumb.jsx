@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const BreadCrumb = ({pagePathName , pageName}) => {
+const BreadCrumb = ({pagePathName , pageName , productName}) => {
   return (
     <section  id='bradcrumb' className='py-3 bg-gray-100'>
         <div className="container">
@@ -9,6 +9,8 @@ const BreadCrumb = ({pagePathName , pageName}) => {
                 <Link  to={'/'} className='text-[16px] font-normal font-poppins text-primary' >Home</Link>
                 <p className='text-[16px] font-normal font-poppins text-primary' >/</p>
                 <Link  to={pagePathName} className='text-[16px] font-normal font-poppins text-primary' >{pageName}</Link>
+                <p className='text-[16px] font-normal font-poppins text-primary' >/</p>
+                <Link  to={pagePathName} className='text-[16px] font-normal font-poppins text-primary' >{productName}</Link>
             </div>
         </div>
 

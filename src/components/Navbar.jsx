@@ -52,8 +52,6 @@ const Navbar = () => {
   return () => window.removeEventListener('scroll', handleScroll);
 }, [location.pathname]);
   
-  console.log(location.pathname)
-
   
   return (
     <nav id="main_menu" className={`w-full ${scrollCss} duration-[1s]  top-0 left-0 z-50 hidden lg:block py-5 `}>
