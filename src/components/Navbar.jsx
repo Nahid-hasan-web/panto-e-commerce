@@ -28,7 +28,7 @@ const Navbar = () => {
     },
     {
       "pageName": "Contact",
-      "pagePath":"/"
+      "pagePath":"/contact"
     },
   ]
 

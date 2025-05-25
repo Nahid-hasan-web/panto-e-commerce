@@ -33,8 +33,8 @@ const Cart = ({ isOpen, closeCart }) => {
   return (
     <>
       <div
-        className={`w-[400px] p-4 bg-white rounded-[5px]   fixed duration-[.4s] ${
-          isOpen ? "top-20 right-20 opacity-[100]" : "top-30 right-20 opacity-0"
+        className={`md:w-[400px] w-full p-4 bg-white rounded-[5px]   fixed duration-[.4s] ${
+          isOpen ? "top-20 right-0 md:right-20 opacity-[100]" : "top-30 right-20 opacity-0"
         } `}
       >
         <div className="flex justify-between">

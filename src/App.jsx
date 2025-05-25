@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import CheckoutPage from './pages/CheckoutPage'
 import AllProducts from './pages/AllProducts'
 import ProductDetails from './components/ProductDetails'
+import Contact from './pages/Contact'
 
 
 const App = () => {
@@ -14,7 +15,8 @@ const App = () => {
       <Route  index element={<Home />} /> 
       <Route   path='/checkout' element={< CheckoutPage/>} /> 
       <Route   path='/allProduct' element={< AllProducts/>} /> 
-      <Route   path='/productDetails/:productId/:prodcutName' element={< ProductDetails/>} /> 
+      <Route path='/productDetails/:productId/:prodcutName' element={< ProductDetails />} /> 
+      <Route path='/contact' element={<Contact />}/>
     </Route>
   ))
 
