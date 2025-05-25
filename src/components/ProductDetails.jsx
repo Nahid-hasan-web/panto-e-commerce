@@ -22,7 +22,7 @@ const ProductDetails = () => {
       setRelatedProducts(filtered);
     }
   }, [productId]);
-
+console.log(productInfo)
   return (
     <section className="pt-24 bg-[#FAFAFA] min-h-screen">
       <BreadCrumb pageName="Product Details" productName={prodcutName} />
@@ -88,7 +88,7 @@ const ProductDetails = () => {
 
         {/* Info Sections */}
         <div className="grid md:grid-cols-2 gap-8 mt-16">
-          {productInfo?.productDetails.map((item, idx) => (
+                  {productInfo?.productDetails.map((item, idx) => (
             <div key={idx} className="bg-white rounded-2xl shadow p-6">
               <h3 className="text-lg font-semibold text-[#0D1B39] mb-2">
                 {item.title}

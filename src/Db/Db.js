@@ -8,25 +8,32 @@ const allProducts = [
     "isBestSeller": true,
     "productDetails": [
       {
-        "material": "Engineered wood with velvet fabric"
+        "title": "Material",
+        "content": "Engineered wood with velvet fabric"
       },
       {
-        "material": "Engineered wood with velvet fabric"
+        "title": "Material",
+        "content": "Engineered wood with velvet fabric"
       },
       {
-        "deliveryInfo": "Delivered within 5-7 business days"
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
       },
       {
-        "returnPolicy": "Return within 14 days in original packaging."
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
       },
       {
-        "estimatedDelivery": "Between May 30 - June 03"
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
       },
       {
-        "careInstructions": "Vacuum regularly. Spot clean only."
+        "title": "Care Instructions",
+        "content": "Vacuum regularly. Spot clean only."
       },
       {
-        "shippingInfo": "Ships in flat-pack. Assembly manual included."
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
       }
     ],
     "description": "Perfect for cozy corners and stylish setups.",
@@ -55,22 +62,28 @@ const allProducts = [
     "isBestSeller": false,
     "productDetails": [
       {
-        "material": "Metal frame with leather finish"
+        "title": "Material",
+        "content": "Metal frame with leather finish"
       },
       {
-        "deliveryInfo": "Delivered within 5-7 business days"
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
       },
       {
-        "returnPolicy": "Return within 14 days in original packaging."
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
       },
       {
-        "estimatedDelivery": "Between May 30 - June 03"
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
       },
       {
-        "careInstructions": "Use mild cleaner. Keep away from moisture."
+        "title": "Care Instructions",
+        "content": "Use mild cleaner. Keep away from moisture."
       },
       {
-        "shippingInfo": "Ships in flat-pack. Assembly manual included."
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
       }
     ],
     "description": "Perfect for cozy corners and stylish setups.",
@@ -99,22 +112,28 @@ const allProducts = [
     "isBestSeller": true,
     "productDetails": [
       {
-        "material": "Metal frame with leather finish"
+        "title": "Material",
+        "content": "Metal frame with leather finish"
       },
       {
-        "deliveryInfo": "Delivered within 5-7 business days"
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
       },
       {
-        "returnPolicy": "Return within 14 days in original packaging."
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
       },
       {
-        "estimatedDelivery": "Between May 30 - June 03"
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
       },
       {
-        "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals."
+        "title": "Care Instructions",
+        "content": "Wipe with dry cloth. Avoid harsh chemicals."
       },
       {
-        "shippingInfo": "Ships in flat-pack. Assembly manual included."
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
       }
     ],
     "description": "Perfect for cozy corners and stylish setups.",
@@ -143,22 +162,28 @@ const allProducts = [
     "isBestSeller": false,
     "productDetails": [
       {
-        "material": "Pinewood frame with wool cushion"
+        "title": "Material",
+        "content": "Pinewood frame with wool cushion"
       },
       {
-        "deliveryInfo": "Delivered within 5-7 business days"
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
       },
       {
-        "returnPolicy": "Return within 14 days in original packaging."
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
       },
       {
-        "estimatedDelivery": "Between May 30 - June 03"
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
       },
       {
-        "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals."
+        "title": "Care Instructions",
+        "content": "Wipe with dry cloth. Avoid harsh chemicals."
       },
       {
-        "shippingInfo": "Ships in flat-pack. Assembly manual included."
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
       }
     ],
     "description": "Built with precision and care.",
@@ -187,22 +212,28 @@ const allProducts = [
     "isBestSeller": true,
     "productDetails": [
       {
-        "material": "Aluminum and plastic composite"
+        "title": "Material",
+        "content": "Aluminum and plastic composite"
       },
       {
-        "deliveryInfo": "Delivered within 5-7 business days"
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
       },
       {
-        "returnPolicy": "Return within 14 days in original packaging."
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
       },
       {
-        "estimatedDelivery": "Between May 30 - June 03"
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
       },
       {
-        "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals."
+        "title": "Care Instructions",
+        "content": "Wipe with dry cloth. Avoid harsh chemicals."
       },
       {
-        "shippingInfo": "Ships in flat-pack. Assembly manual included."
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
       }
     ],
     "description": "A statement piece for your interior.",
@@ -231,22 +262,28 @@ const allProducts = [
     "isBestSeller": false,
     "productDetails": [
       {
-        "material": "Metal frame with leather finish"
+        "title": "Material",
+        "content": "Metal frame with leather finish"
       },
       {
-        "deliveryInfo": "Delivered within 5-7 business days"
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
       },
       {
-        "returnPolicy": "Return within 14 days in original packaging."
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
       },
       {
-        "estimatedDelivery": "Between May 30 - June 03"
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
       },
       {
-        "careInstructions": "Use mild cleaner. Keep away from moisture."
+        "title": "Care Instructions",
+        "content": "Use mild cleaner. Keep away from moisture."
       },
       {
-        "shippingInfo": "Ships in flat-pack. Assembly manual included."
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
       }
     ],
     "description": "Built with precision and care.",
