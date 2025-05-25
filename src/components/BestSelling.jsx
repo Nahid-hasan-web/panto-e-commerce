@@ -5,6 +5,7 @@ import { BsFillStarFill } from "react-icons/bs";
 import { FaPlus } from "react-icons/fa";
 import { useDispatch } from "react-redux";
 import { cartPorduct } from "../slices/cartproductSlice";
+import { useNavigate } from "react-router-dom";
 
 const BestSelling = () => {
   // ----------------- all custom hooks and states -----------------
@@ -12,6 +13,7 @@ const BestSelling = () => {
   const [navsButtonactive, setNavsActive] = React.useState("left-[6px]");
   const [selligProduct , setSellingProduct] = useState('Chair')
   const dispatch = useDispatch()
+  const navigate = useNavigate()
   // ----------------- all custom functions -----------------
   useEffect(() => {
     const filterProducts = allProducts.filter((item)=>{
@@ -30,7 +32,10 @@ const BestSelling = () => {
     localStorage.setItem( 'cartProductId' , JSON.stringify( productArr))
     dispatch(cartPorduct(productArr))
   }
-  
+  // ------------ product details part 
+  const productDetails = (productid, productName) => {
+   navigate(`/productDetails/${productid}/${productName}`)
+  }
 
   return (
     <>
@@ -74,7 +79,7 @@ const BestSelling = () => {
             {
               Products.map((item) => (
                 item.isBestSeller === true &&
-                <SingelProduct activeCart={()=>testfun(item.id)} productImages={item.productImage} productCat={item.productCategory} productname={item.productName} productPrice={item.productPrice}  key={item.id} />
+                <SingelProduct details={()=>productDetails(item.id , item.productName)} activeCart={()=>testfun(item.id)} productImages={item.productImage} productCat={item.productCategory} productname={item.productName} productPrice={item.productPrice}  key={item.id} />
               ))
             }
           </div>

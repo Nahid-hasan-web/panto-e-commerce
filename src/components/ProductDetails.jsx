@@ -33,46 +33,26 @@ const ProductDetails = () => {
               </button>
             </div>
                   </div>
-                  <div className="  my-10  ">
+                  <div className="  my-10 lg:pl-[200px]  ">
                       {/* ---------------- singel product title  */}
                       <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
                           <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">Material</h2>
-                          <p className="text-[16px] font-poppins font-normal text-pretty "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, saepe.</p>
+                          <p className="text-[13px] font-poppins font-normal text-pretty "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, saepe.</p>
                       </div>
                       {/* ---------------- singel product title  */}
                       <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
-                          <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">Delivery Information</h2>
-                          <p className="text-[16px] font-poppins font-normal text-pretty "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, saepe.</p>
+                          <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">Material</h2>
+                          <p className="text-[13px] font-poppins font-normal text-pretty "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, saepe.</p>
+                      </div>f
+                      {/* ---------------- singel product title  */}
+                      <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
+                          <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">Material</h2>
+                          <p className="text-[13px] font-poppins font-normal text-pretty "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, saepe.</p>
                       </div>
                       {/* ---------------- singel product title  */}
                       <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
-                          <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">Key Features & Highlights</h2>
-                          <p className="text-[16px] font-poppins font-normal text-pretty "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, saepe.</p>
-                      </div>
-                      {/* ---------------- singel product title  */}
-                      <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
-                          <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">Specifications </h2>
-                          <p className="text-[16px] font-poppins font-normal text-pretty "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, saepe.</p>
-                      </div>
-                      {/* ---------------- singel product title  */}
-                      <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
-                          <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">Care Instructions</h2>
-                          <p className="text-[16px] font-poppins font-normal text-pretty "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, saepe.</p>
-                      </div>
-                      {/* ---------------- singel product title  */}
-                      <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
-                          <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">Estimated Delivery Date</h2>
-                          <p className="text-[16px] font-poppins font-normal text-pretty "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, saepe.</p>
-                      </div>
-                      {/* ---------------- singel product title  */}
-                      <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
-                          <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">Return & Warranty Policy</h2>
-                          <p className="text-[16px] font-poppins font-normal text-pretty "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, saepe.</p>
-                      </div>
-                      {/* ---------------- singel product title  */}
-                      <div className="flex gap-10 flex-wrap py-5 border-b border-gray-200">
-                          <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">Shipping & Assembly Information</h2>
-                          <p className="text-[16px] font-poppins font-normal text-pretty "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, saepe.</p>
+                          <h2 className=" w-[250px] text-lg  font-poppins  font-medium text-primary">Material</h2>
+                          <p className="text-[13px] font-poppins font-normal text-pretty "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, saepe.</p>
                       </div>
                   </div>
         </div>
