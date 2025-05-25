@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import BreadCrumb from "./Common/BreadCrumb";
 import allProducts from "../Db/Db";
 import { useEffect, useState } from "react";
@@ -7,7 +7,7 @@ const ProductDetails = () => {
   const { productId, prodcutName } = useParams();
   const [productInfo, setProductInfo] = useState(null);
   const [relatedProducts, setRelatedProducts] = useState([]);
-
+    const navigate  = useNavigate()
   useEffect(() => {
     const foundProduct = allProducts.find((item) => item.id == productId);
     setProductInfo(foundProduct);
@@ -22,7 +22,10 @@ const ProductDetails = () => {
       setRelatedProducts(filtered);
     }
   }, [productId]);
-console.log(productInfo)
+
+  const productDetails = (productid, productName) => {
+    navigate(`/productDetails/${productid}/${productName}`);
+  };
   return (
     <section className="pt-24 bg-[#FAFAFA] min-h-screen">
       <BreadCrumb pageName="Product Details" productName={prodcutName} />
@@ -88,7 +91,7 @@ console.log(productInfo)
 
         {/* Info Sections */}
         <div className="grid md:grid-cols-2 gap-8 mt-16">
-                  {productInfo?.productDetails.map((item, idx) => (
+          {productInfo?.productDetails.map((item, idx) => (
             <div key={idx} className="bg-white rounded-2xl shadow p-6">
               <h3 className="text-lg font-semibold text-[#0D1B39] mb-2">
                 {item.title}
@@ -107,6 +110,7 @@ console.log(productInfo)
             <div className="flex gap-6 overflow-x-auto pb-4">
               {relatedProducts.map((item) => (
                 <div
+                  onClick={() => productDetails(item.id , item.productName)}
                   key={item.id}
                   className="min-w-[200px] bg-white rounded-xl shadow p-4"
                 >

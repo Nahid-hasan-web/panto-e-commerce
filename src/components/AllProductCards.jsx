@@ -6,6 +6,7 @@ import { MdOutlineArrowBackIos } from "react-icons/md";
 import { MdArrowForwardIos } from "react-icons/md";
 import { useDispatch } from 'react-redux';
 import { cartPorduct } from '../slices/cartproductSlice';
+import { useNavigate } from 'react-router-dom';
 
 
 const AllProductCards = () => {
@@ -35,14 +36,19 @@ const AllProductCards = () => {
     localStorage.setItem('cartProductId', JSON.stringify(myArr))
     dispatch(cartPorduct(myArr))
   }
-
+  // --------------------
+   const navigate = useNavigate()
+    const productDetails = (productid, productName) => {
+    navigate(`/productDetails/${productid}/${productName}`);
+  };
   return (
     <>
       <section id='AllProductCards' className='pt-10 w-full'>
         <div className='flex gap-5 flex-wrap'>
           {currentProducts.map((item) => (
             <SingleProduct
-              activeCart={()=>hanelAddTocart(item.id)}
+              activeCart={() => hanelAddTocart(item.id)}
+              details={()=>productDetails(item.id , item.productName)}
               key={item.id} // Assuming each product has a unique 'id'
               productImages={item.productImage}
               productname={item.productName}
