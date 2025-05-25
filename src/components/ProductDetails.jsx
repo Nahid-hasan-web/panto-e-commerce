@@ -50,7 +50,9 @@ const ProductDetails = () => {
 
             {/* Color Selection */}
             <div className="mb-6">
-              <h3 className="text-md font-medium text-[#333] mb-2">Available Colors</h3>
+              <h3 className="text-md font-medium text-[#333] mb-2">
+                Available Colors
+              </h3>
               <div className="flex gap-3">
                 {productInfo?.availableColors?.map((color, idx) => (
                   <span
@@ -64,10 +66,18 @@ const ProductDetails = () => {
 
             {/* Product Specs */}
             <div className="grid grid-cols-2 gap-4 text-sm text-gray-600 mb-6">
-              <p><strong>Width:</strong> {productInfo?.specifications?.width}</p>
-              <p><strong>Height:</strong> {productInfo?.specifications?.height}</p>
-              <p><strong>Depth:</strong> {productInfo?.specifications?.depth}</p>
-              <p><strong>Weight:</strong> {productInfo?.specifications?.weight}</p>
+              <p>
+                <strong>Width:</strong> {productInfo?.specifications?.width}
+              </p>
+              <p>
+                <strong>Height:</strong> {productInfo?.specifications?.height}
+              </p>
+              <p>
+                <strong>Depth:</strong> {productInfo?.specifications?.depth}
+              </p>
+              <p>
+                <strong>Weight:</strong> {productInfo?.specifications?.weight}
+              </p>
             </div>
 
             <button className="mt-4 px-6 py-3 bg-[#0D1B39] text-white rounded-xl text-sm font-medium hover:bg-[#FFA62F] hover:text-black transition">
@@ -78,14 +88,11 @@ const ProductDetails = () => {
 
         {/* Info Sections */}
         <div className="grid md:grid-cols-2 gap-8 mt-16">
-          {[
-            { title: "Material", content: "Premium engineered wood and stainless steel base." },
-            { title: "Delivery Info", content: "Ships within 5–7 working days with tracking." },
-            { title: "Warranty & Return", content: "30-day return and 1-year product warranty." },
-            { title: "Care Instructions", content: "Wipe gently with a soft cloth. Avoid moisture." },
-          ].map((item, idx) => (
+          {productInfo?.productDetails.map((item, idx) => (
             <div key={idx} className="bg-white rounded-2xl shadow p-6">
-              <h3 className="text-lg font-semibold text-[#0D1B39] mb-2">{item.title}</h3>
+              <h3 className="text-lg font-semibold text-[#0D1B39] mb-2">
+                {item.title}
+              </h3>
               <p className="text-sm text-gray-600">{item.content}</p>
             </div>
           ))}
@@ -108,8 +115,12 @@ const ProductDetails = () => {
                     alt={item.productName}
                     className="h-[150px] w-full object-contain mb-4"
                   />
-                  <h4 className="text-md font-semibold text-[#333] mb-1">{item.productName}</h4>
-                  <p className="text-sm text-[#FFA62F] font-medium">${item.productPrice}</p>
+                  <h4 className="text-md font-semibold text-[#333] mb-1">
+                    {item.productName}
+                  </h4>
+                  <p className="text-sm text-[#FFA62F] font-medium">
+                    ${item.productPrice}
+                  </p>
                 </div>
               ))}
             </div>
@@ -118,17 +129,22 @@ const ProductDetails = () => {
 
         {/* Testimonials */}
         <div className="mt-24">
-          <h2 className="text-2xl font-semibold text-[#0D1B39] mb-6">What Our Customers Say</h2>
+          <h2 className="text-2xl font-semibold text-[#0D1B39] mb-6">
+            What Our Customers Say
+          </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[1, 2, 3].map((_, idx) => (
               <div key={idx} className="bg-white shadow rounded-xl p-6">
                 <p className="text-gray-600 text-sm mb-4">
-                  "Absolutely loved the quality and design. Perfect match for my home interior!"
+                  "Absolutely loved the quality and design. Perfect match for my
+                  home interior!"
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-gray-300" />
                   <div>
-                    <p className="text-sm font-medium text-[#0D1B39]">Customer {idx + 1}</p>
+                    <p className="text-sm font-medium text-[#0D1B39]">
+                      Customer {idx + 1}
+                    </p>
                     <p className="text-xs text-gray-500">Verified Buyer</p>
                   </div>
                 </div>
