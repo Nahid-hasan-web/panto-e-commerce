@@ -6,12 +6,30 @@ const allProducts = [
     "productCategory": "Chair",
     "productPrice": "392",
     "isBestSeller": true,
-    "material": "Engineered wood with velvet fabric",
-    "deliveryInfo": "Delivered within 5-7 business days",
+    "productDetails": [
+      {
+        "material": "Engineered wood with velvet fabric"
+      },
+      {
+        "material": "Engineered wood with velvet fabric"
+      },
+      {
+        "deliveryInfo": "Delivered within 5-7 business days"
+      },
+      {
+        "returnPolicy": "Return within 14 days in original packaging."
+      },
+      {
+        "estimatedDelivery": "Between May 30 - June 03"
+      },
+      {
+        "careInstructions": "Vacuum regularly. Spot clean only."
+      },
+      {
+        "shippingInfo": "Ships in flat-pack. Assembly manual included."
+      }
+    ],
     "description": "Perfect for cozy corners and stylish setups.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Vacuum regularly. Spot clean only.",
     "specifications": {
       "width": "67in",
       "height": "57in",
@@ -23,7 +41,6 @@ const allProducts = [
       "Compact design",
       "Eco-friendly"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#FFFFFF",
       "#CCCCCC"
@@ -36,12 +53,27 @@ const allProducts = [
     "productCategory": "Chair",
     "productPrice": "275",
     "isBestSeller": false,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
+    "productDetails": [
+      {
+        "material": "Metal frame with leather finish"
+      },
+      {
+        "deliveryInfo": "Delivered within 5-7 business days"
+      },
+      {
+        "returnPolicy": "Return within 14 days in original packaging."
+      },
+      {
+        "estimatedDelivery": "Between May 30 - June 03"
+      },
+      {
+        "careInstructions": "Use mild cleaner. Keep away from moisture."
+      },
+      {
+        "shippingInfo": "Ships in flat-pack. Assembly manual included."
+      }
+    ],
     "description": "Perfect for cozy corners and stylish setups.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Use mild cleaner. Keep away from moisture.",
     "specifications": {
       "width": "67in",
       "height": "44in",
@@ -53,7 +85,6 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#1E1E1E",
       "#E58411"
@@ -66,12 +97,27 @@ const allProducts = [
     "productCategory": "Chair",
     "productPrice": "315",
     "isBestSeller": true,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
+    "productDetails": [
+      {
+        "material": "Metal frame with leather finish"
+      },
+      {
+        "deliveryInfo": "Delivered within 5-7 business days"
+      },
+      {
+        "returnPolicy": "Return within 14 days in original packaging."
+      },
+      {
+        "estimatedDelivery": "Between May 30 - June 03"
+      },
+      {
+        "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals."
+      },
+      {
+        "shippingInfo": "Ships in flat-pack. Assembly manual included."
+      }
+    ],
     "description": "Perfect for cozy corners and stylish setups.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals.",
     "specifications": {
       "width": "47in",
       "height": "55in",
@@ -83,7 +129,6 @@ const allProducts = [
       "Firm backrest",
       "Lightweight frame"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#F5F5F5",
       "#333333"
@@ -96,12 +141,27 @@ const allProducts = [
     "productCategory": "Chair",
     "productPrice": "450",
     "isBestSeller": false,
-    "material": "Pinewood frame with wool cushion",
-    "deliveryInfo": "Delivered within 5-7 business days",
+    "productDetails": [
+      {
+        "material": "Pinewood frame with wool cushion"
+      },
+      {
+        "deliveryInfo": "Delivered within 5-7 business days"
+      },
+      {
+        "returnPolicy": "Return within 14 days in original packaging."
+      },
+      {
+        "estimatedDelivery": "Between May 30 - June 03"
+      },
+      {
+        "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals."
+      },
+      {
+        "shippingInfo": "Ships in flat-pack. Assembly manual included."
+      }
+    ],
     "description": "Built with precision and care.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals.",
     "specifications": {
       "width": "32in",
       "height": "41in",
@@ -113,7 +173,6 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#E0AFA0",
       "#A0522D"
@@ -126,12 +185,27 @@ const allProducts = [
     "productCategory": "Chair",
     "productPrice": "380",
     "isBestSeller": true,
-    "material": "Aluminum and plastic composite",
-    "deliveryInfo": "Delivered within 5-7 business days",
+    "productDetails": [
+      {
+        "material": "Aluminum and plastic composite"
+      },
+      {
+        "deliveryInfo": "Delivered within 5-7 business days"
+      },
+      {
+        "returnPolicy": "Return within 14 days in original packaging."
+      },
+      {
+        "estimatedDelivery": "Between May 30 - June 03"
+      },
+      {
+        "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals."
+      },
+      {
+        "shippingInfo": "Ships in flat-pack. Assembly manual included."
+      }
+    ],
     "description": "A statement piece for your interior.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals.",
     "specifications": {
       "width": "58in",
       "height": "37in",
@@ -143,7 +217,6 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#E0AFA0",
       "#A0522D"
@@ -156,12 +229,27 @@ const allProducts = [
     "productCategory": "Chair",
     "productPrice": "330",
     "isBestSeller": false,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
+    "productDetails": [
+      {
+        "material": "Metal frame with leather finish"
+      },
+      {
+        "deliveryInfo": "Delivered within 5-7 business days"
+      },
+      {
+        "returnPolicy": "Return within 14 days in original packaging."
+      },
+      {
+        "estimatedDelivery": "Between May 30 - June 03"
+      },
+      {
+        "careInstructions": "Use mild cleaner. Keep away from moisture."
+      },
+      {
+        "shippingInfo": "Ships in flat-pack. Assembly manual included."
+      }
+    ],
     "description": "Built with precision and care.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Use mild cleaner. Keep away from moisture.",
     "specifications": {
       "width": "66in",
       "height": "56in",
@@ -173,7 +261,6 @@ const allProducts = [
       "Modern aesthetics",
       "Comfort cushioning"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#E0AFA0",
       "#A0522D"
@@ -186,12 +273,7 @@ const allProducts = [
     "productCategory": "Chair",
     "productPrice": "405",
     "isBestSeller": true,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Comfort and style combined for any modern home.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Clean with soft damp cloth. Avoid direct sunlight.",
     "specifications": {
       "width": "40in",
       "height": "52in",
@@ -203,10 +285,35 @@ const allProducts = [
       "Easy to assemble",
       "Scratch-resistant"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#B0C4DE",
       "#556B2F"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Metal frame with leather finish"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Clean with soft damp cloth. Avoid direct sunlight."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -216,12 +323,7 @@ const allProducts = [
     "productCategory": "Chair",
     "productPrice": "290",
     "isBestSeller": false,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Elegant design with durable material for everyday use.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals.",
     "specifications": {
       "width": "55in",
       "height": "50in",
@@ -233,10 +335,35 @@ const allProducts = [
       "Firm backrest",
       "Lightweight frame"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#F5F5F5",
       "#333333"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Metal frame with leather finish"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Wipe with dry cloth. Avoid harsh chemicals."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -246,12 +373,7 @@ const allProducts = [
     "productCategory": "Chair",
     "productPrice": "345",
     "isBestSeller": true,
-    "material": "Engineered wood with velvet fabric",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "A statement piece for your interior.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals.",
     "specifications": {
       "width": "33in",
       "height": "33in",
@@ -263,10 +385,35 @@ const allProducts = [
       "Easy to assemble",
       "Scratch-resistant"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#1E1E1E",
       "#E58411"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Engineered wood with velvet fabric"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Wipe with dry cloth. Avoid harsh chemicals."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -276,12 +423,7 @@ const allProducts = [
     "productCategory": "Chair",
     "productPrice": "220",
     "isBestSeller": false,
-    "material": "Solid wood with cotton blend upholstery",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Built with precision and care.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Vacuum regularly. Spot clean only.",
     "specifications": {
       "width": "48in",
       "height": "25in",
@@ -293,10 +435,35 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#FFFFFF",
       "#CCCCCC"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Solid wood with cotton blend upholstery"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Vacuum regularly. Spot clean only."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -306,12 +473,7 @@ const allProducts = [
     "productCategory": "Bed",
     "productPrice": "799",
     "isBestSeller": true,
-    "material": "Aluminum and plastic composite",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Comfort and style combined for any modern home.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals.",
     "specifications": {
       "width": "40in",
       "height": "36in",
@@ -323,10 +485,35 @@ const allProducts = [
       "Modern aesthetics",
       "Comfort cushioning"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#E0AFA0",
       "#A0522D"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Aluminum and plastic composite"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Wipe with dry cloth. Avoid harsh chemicals."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -336,12 +523,7 @@ const allProducts = [
     "productCategory": "Bed",
     "productPrice": "1,250",
     "isBestSeller": false,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "A statement piece for your interior.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Clean with soft damp cloth. Avoid direct sunlight.",
     "specifications": {
       "width": "23in",
       "height": "59in",
@@ -353,10 +535,35 @@ const allProducts = [
       "Modern aesthetics",
       "Comfort cushioning"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#B0C4DE",
       "#556B2F"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Metal frame with leather finish"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Clean with soft damp cloth. Avoid direct sunlight."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -366,12 +573,7 @@ const allProducts = [
     "productCategory": "Bed",
     "productPrice": "980",
     "isBestSeller": true,
-    "material": "Engineered wood with velvet fabric",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Built with precision and care.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Hand wash recommended. Do not iron fabric surface.",
     "specifications": {
       "width": "75in",
       "height": "34in",
@@ -383,10 +585,35 @@ const allProducts = [
       "Modern aesthetics",
       "Comfort cushioning"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#E0AFA0",
       "#A0522D"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Engineered wood with velvet fabric"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Hand wash recommended. Do not iron fabric surface."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -396,12 +623,7 @@ const allProducts = [
     "productCategory": "Bed",
     "productPrice": "1,100",
     "isBestSeller": false,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Perfect for cozy corners and stylish setups.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Use mild cleaner. Keep away from moisture.",
     "specifications": {
       "width": "68in",
       "height": "47in",
@@ -413,10 +635,35 @@ const allProducts = [
       "Compact design",
       "Eco-friendly"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#FFFFFF",
       "#CCCCCC"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Metal frame with leather finish"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Use mild cleaner. Keep away from moisture."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -426,12 +673,7 @@ const allProducts = [
     "productCategory": "Bed",
     "productPrice": "1,450",
     "isBestSeller": true,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Elegant design with durable material for everyday use.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Clean with soft damp cloth. Avoid direct sunlight.",
     "specifications": {
       "width": "27in",
       "height": "45in",
@@ -443,10 +685,35 @@ const allProducts = [
       "Modern aesthetics",
       "Comfort cushioning"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#B0C4DE",
       "#556B2F"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Metal frame with leather finish"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Clean with soft damp cloth. Avoid direct sunlight."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -456,12 +723,7 @@ const allProducts = [
     "productCategory": "Bed",
     "productPrice": "670",
     "isBestSeller": false,
-    "material": "Solid wood with cotton blend upholstery",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Built with precision and care.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Hand wash recommended. Do not iron fabric surface.",
     "specifications": {
       "width": "49in",
       "height": "52in",
@@ -473,10 +735,35 @@ const allProducts = [
       "Compact design",
       "Eco-friendly"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#E0AFA0",
       "#A0522D"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Solid wood with cotton blend upholstery"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Hand wash recommended. Do not iron fabric surface."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -486,12 +773,7 @@ const allProducts = [
     "productCategory": "Bed",
     "productPrice": "1,350",
     "isBestSeller": true,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "A statement piece for your interior.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Vacuum regularly. Spot clean only.",
     "specifications": {
       "width": "69in",
       "height": "58in",
@@ -503,10 +785,35 @@ const allProducts = [
       "Modern aesthetics",
       "Comfort cushioning"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#1E1E1E",
       "#E58411"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Metal frame with leather finish"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Vacuum regularly. Spot clean only."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -516,12 +823,7 @@ const allProducts = [
     "productCategory": "Bed",
     "productPrice": "890",
     "isBestSeller": false,
-    "material": "Engineered wood with velvet fabric",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Comfort and style combined for any modern home.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Vacuum regularly. Spot clean only.",
     "specifications": {
       "width": "56in",
       "height": "26in",
@@ -533,10 +835,35 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#1E1E1E",
       "#E58411"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Engineered wood with velvet fabric"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Vacuum regularly. Spot clean only."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -546,12 +873,7 @@ const allProducts = [
     "productCategory": "Bed",
     "productPrice": "1,020",
     "isBestSeller": true,
-    "material": "Pinewood frame with wool cushion",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Comfort and style combined for any modern home.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Hand wash recommended. Do not iron fabric surface.",
     "specifications": {
       "width": "67in",
       "height": "53in",
@@ -563,10 +885,35 @@ const allProducts = [
       "Firm backrest",
       "Lightweight frame"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#B0C4DE",
       "#556B2F"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Pinewood frame with wool cushion"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Hand wash recommended. Do not iron fabric surface."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -576,12 +923,7 @@ const allProducts = [
     "productCategory": "Bed",
     "productPrice": "1,180",
     "isBestSeller": false,
-    "material": "Solid wood with cotton blend upholstery",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Perfect for cozy corners and stylish setups.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Clean with soft damp cloth. Avoid direct sunlight.",
     "specifications": {
       "width": "32in",
       "height": "28in",
@@ -593,10 +935,35 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#FFFFFF",
       "#CCCCCC"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Solid wood with cotton blend upholstery"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Clean with soft damp cloth. Avoid direct sunlight."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -606,12 +973,7 @@ const allProducts = [
     "productCategory": "Sofa",
     "productPrice": "1,299",
     "isBestSeller": true,
-    "material": "Aluminum and plastic composite",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "A statement piece for your interior.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Hand wash recommended. Do not iron fabric surface.",
     "specifications": {
       "width": "53in",
       "height": "37in",
@@ -623,10 +985,35 @@ const allProducts = [
       "Compact design",
       "Eco-friendly"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#1E1E1E",
       "#E58411"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Aluminum and plastic composite"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Hand wash recommended. Do not iron fabric surface."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -636,12 +1023,7 @@ const allProducts = [
     "productCategory": "Sofa",
     "productPrice": "899",
     "isBestSeller": false,
-    "material": "Solid wood with cotton blend upholstery",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Elegant design with durable material for everyday use.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Use mild cleaner. Keep away from moisture.",
     "specifications": {
       "width": "52in",
       "height": "38in",
@@ -653,10 +1035,35 @@ const allProducts = [
       "Compact design",
       "Eco-friendly"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#E0AFA0",
       "#A0522D"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Solid wood with cotton blend upholstery"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Use mild cleaner. Keep away from moisture."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -666,12 +1073,7 @@ const allProducts = [
     "productCategory": "Sofa",
     "productPrice": "2,150",
     "isBestSeller": true,
-    "material": "Engineered wood with velvet fabric",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Comfort and style combined for any modern home.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Use mild cleaner. Keep away from moisture.",
     "specifications": {
       "width": "22in",
       "height": "55in",
@@ -683,10 +1085,35 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#B0C4DE",
       "#556B2F"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Engineered wood with velvet fabric"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Use mild cleaner. Keep away from moisture."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -696,12 +1123,7 @@ const allProducts = [
     "productCategory": "Sofa",
     "productPrice": "1,180",
     "isBestSeller": false,
-    "material": "Pinewood frame with wool cushion",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Elegant design with durable material for everyday use.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals.",
     "specifications": {
       "width": "28in",
       "height": "27in",
@@ -713,10 +1135,35 @@ const allProducts = [
       "Modern aesthetics",
       "Comfort cushioning"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#FFFFFF",
       "#CCCCCC"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Pinewood frame with wool cushion"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Wipe with dry cloth. Avoid harsh chemicals."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -726,12 +1173,7 @@ const allProducts = [
     "productCategory": "Sofa",
     "productPrice": "1,420",
     "isBestSeller": true,
-    "material": "Aluminum and plastic composite",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Elegant design with durable material for everyday use.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Hand wash recommended. Do not iron fabric surface.",
     "specifications": {
       "width": "24in",
       "height": "50in",
@@ -743,10 +1185,35 @@ const allProducts = [
       "Modern aesthetics",
       "Comfort cushioning"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#1E1E1E",
       "#E58411"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Aluminum and plastic composite"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Hand wash recommended. Do not iron fabric surface."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -756,12 +1223,7 @@ const allProducts = [
     "productCategory": "Sofa",
     "productPrice": "2,050",
     "isBestSeller": false,
-    "material": "Pinewood frame with wool cushion",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Perfect for cozy corners and stylish setups.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Clean with soft damp cloth. Avoid direct sunlight.",
     "specifications": {
       "width": "24in",
       "height": "45in",
@@ -773,10 +1235,35 @@ const allProducts = [
       "Easy to assemble",
       "Scratch-resistant"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#E0AFA0",
       "#A0522D"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Pinewood frame with wool cushion"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Clean with soft damp cloth. Avoid direct sunlight."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -786,12 +1273,7 @@ const allProducts = [
     "productCategory": "Sofa",
     "productPrice": "1,675",
     "isBestSeller": true,
-    "material": "Aluminum and plastic composite",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Perfect for cozy corners and stylish setups.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals.",
     "specifications": {
       "width": "63in",
       "height": "40in",
@@ -803,10 +1285,35 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#B0C4DE",
       "#556B2F"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Aluminum and plastic composite"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Wipe with dry cloth. Avoid harsh chemicals."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -816,12 +1323,7 @@ const allProducts = [
     "productCategory": "Sofa",
     "productPrice": "1,980",
     "isBestSeller": false,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Built with precision and care.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Clean with soft damp cloth. Avoid direct sunlight.",
     "specifications": {
       "width": "28in",
       "height": "50in",
@@ -833,10 +1335,35 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#E0AFA0",
       "#A0522D"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Metal frame with leather finish"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Clean with soft damp cloth. Avoid direct sunlight."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -846,12 +1373,7 @@ const allProducts = [
     "productCategory": "Sofa",
     "productPrice": "1,540",
     "isBestSeller": true,
-    "material": "Solid wood with cotton blend upholstery",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Comfort and style combined for any modern home.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Clean with soft damp cloth. Avoid direct sunlight.",
     "specifications": {
       "width": "44in",
       "height": "32in",
@@ -863,10 +1385,35 @@ const allProducts = [
       "Compact design",
       "Eco-friendly"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#E0AFA0",
       "#A0522D"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Solid wood with cotton blend upholstery"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Clean with soft damp cloth. Avoid direct sunlight."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -876,12 +1423,7 @@ const allProducts = [
     "productCategory": "Sofa",
     "productPrice": "720",
     "isBestSeller": false,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "A statement piece for your interior.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Clean with soft damp cloth. Avoid direct sunlight.",
     "specifications": {
       "width": "53in",
       "height": "46in",
@@ -893,10 +1435,35 @@ const allProducts = [
       "Modern aesthetics",
       "Comfort cushioning"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#E0AFA0",
       "#A0522D"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Metal frame with leather finish"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Clean with soft damp cloth. Avoid direct sunlight."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -906,12 +1473,7 @@ const allProducts = [
     "productCategory": "Sofa",
     "productPrice": "620",
     "isBestSeller": false,
-    "material": "Aluminum and plastic composite",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Perfect for cozy corners and stylish setups.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Vacuum regularly. Spot clean only.",
     "specifications": {
       "width": "44in",
       "height": "27in",
@@ -923,10 +1485,35 @@ const allProducts = [
       "Easy to assemble",
       "Scratch-resistant"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#B0C4DE",
       "#556B2F"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Aluminum and plastic composite"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Vacuum regularly. Spot clean only."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -936,12 +1523,7 @@ const allProducts = [
     "productCategory": "Sofa",
     "productPrice": "857",
     "isBestSeller": true,
-    "material": "Engineered wood with velvet fabric",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Elegant design with durable material for everyday use.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Hand wash recommended. Do not iron fabric surface.",
     "specifications": {
       "width": "20in",
       "height": "44in",
@@ -953,10 +1535,35 @@ const allProducts = [
       "Easy to assemble",
       "Scratch-resistant"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#B0C4DE",
       "#556B2F"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Engineered wood with velvet fabric"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Hand wash recommended. Do not iron fabric surface."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -966,12 +1573,7 @@ const allProducts = [
     "productCategory": "Lamp",
     "productPrice": "120",
     "isBestSeller": false,
-    "material": "Engineered wood with velvet fabric",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Elegant design with durable material for everyday use.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals.",
     "specifications": {
       "width": "72in",
       "height": "45in",
@@ -983,10 +1585,35 @@ const allProducts = [
       "Firm backrest",
       "Lightweight frame"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#1E1E1E",
       "#E58411"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Engineered wood with velvet fabric"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Wipe with dry cloth. Avoid harsh chemicals."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -996,12 +1623,7 @@ const allProducts = [
     "productCategory": "Lamp",
     "productPrice": "95",
     "isBestSeller": true,
-    "material": "Aluminum and plastic composite",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Perfect for cozy corners and stylish setups.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals.",
     "specifications": {
       "width": "27in",
       "height": "35in",
@@ -1013,10 +1635,35 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#F5F5F5",
       "#333333"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Aluminum and plastic composite"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Wipe with dry cloth. Avoid harsh chemicals."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -1026,12 +1673,7 @@ const allProducts = [
     "productCategory": "Lamp",
     "productPrice": "110",
     "isBestSeller": false,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Perfect for cozy corners and stylish setups.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Wipe with dry cloth. Avoid harsh chemicals.",
     "specifications": {
       "width": "78in",
       "height": "35in",
@@ -1043,10 +1685,35 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#E0AFA0",
       "#A0522D"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Metal frame with leather finish"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Wipe with dry cloth. Avoid harsh chemicals."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -1056,12 +1723,7 @@ const allProducts = [
     "productCategory": "Lamp",
     "productPrice": "75",
     "isBestSeller": true,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Elegant design with durable material for everyday use.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Hand wash recommended. Do not iron fabric surface.",
     "specifications": {
       "width": "21in",
       "height": "37in",
@@ -1073,10 +1735,35 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#B0C4DE",
       "#556B2F"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Metal frame with leather finish"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Hand wash recommended. Do not iron fabric surface."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -1086,12 +1773,7 @@ const allProducts = [
     "productCategory": "Lamp",
     "productPrice": "75",
     "isBestSeller": true,
-    "material": "Metal frame with leather finish",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Perfect for cozy corners and stylish setups.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Clean with soft damp cloth. Avoid direct sunlight.",
     "specifications": {
       "width": "58in",
       "height": "28in",
@@ -1103,10 +1785,35 @@ const allProducts = [
       "Firm backrest",
       "Lightweight frame"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#FFFFFF",
       "#CCCCCC"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Metal frame with leather finish"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Clean with soft damp cloth. Avoid direct sunlight."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -1116,12 +1823,7 @@ const allProducts = [
     "productCategory": "Lamp",
     "productPrice": "75",
     "isBestSeller": true,
-    "material": "Engineered wood with velvet fabric",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Built with precision and care.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Use mild cleaner. Keep away from moisture.",
     "specifications": {
       "width": "58in",
       "height": "41in",
@@ -1133,10 +1835,35 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#1E1E1E",
       "#E58411"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Engineered wood with velvet fabric"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Use mild cleaner. Keep away from moisture."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   },
   {
@@ -1146,12 +1873,7 @@ const allProducts = [
     "productCategory": "Lamp",
     "productPrice": "75",
     "isBestSeller": true,
-    "material": "Aluminum and plastic composite",
-    "deliveryInfo": "Delivered within 5-7 business days",
     "description": "Perfect for cozy corners and stylish setups.",
-    "returnPolicy": "Return within 14 days in original packaging.",
-    "estimatedDelivery": "Between May 30 - June 03",
-    "careInstructions": "Clean with soft damp cloth. Avoid direct sunlight.",
     "specifications": {
       "width": "29in",
       "height": "52in",
@@ -1163,10 +1885,35 @@ const allProducts = [
       "High durability",
       "Child-safe edges"
     ],
-    "shippingInfo": "Ships in flat-pack. Assembly manual included.",
     "availableColors": [
       "#FFFFFF",
       "#CCCCCC"
+    ],
+    "productDetails": [
+      {
+        "title": "Material",
+        "content": "Aluminum and plastic composite"
+      },
+      {
+        "title": "Delivery Info",
+        "content": "Delivered within 5-7 business days"
+      },
+      {
+        "title": "Return Policy",
+        "content": "Return within 14 days in original packaging."
+      },
+      {
+        "title": "Estimated Delivery",
+        "content": "Between May 30 - June 03"
+      },
+      {
+        "title": "Care Instructions",
+        "content": "Clean with soft damp cloth. Avoid direct sunlight."
+      },
+      {
+        "title": "Shipping Info",
+        "content": "Ships in flat-pack. Assembly manual included."
+      }
     ]
   }
 ];
