@@ -13,7 +13,7 @@ const SingleProduct = ({
   details
 }) => {
   return (
-    <div className="w-[268px]   rounded-xl  overflow-hidden shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)]">
+    <div className="w-[268px] mb-5 lg:mb-0  rounded-xl  overflow-hidden shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)]">
       <div className="singel_productImage overflow-hidden group h-[267px] relative">
         <img
           src={productImages}

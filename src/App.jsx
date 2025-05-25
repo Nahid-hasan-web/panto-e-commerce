@@ -7,7 +7,7 @@ import CheckoutPage from './pages/CheckoutPage'
 import AllProducts from './pages/AllProducts'
 import ProductDetails from './components/ProductDetails'
 import Contact from './pages/Contact'
-
+  import { ToastContainer } from 'react-toastify';
 
 const App = () => {
   const myRoute = createBrowserRouter(createRoutesFromElements(
@@ -25,6 +25,7 @@ const App = () => {
 
   return (
     <>
+      <ToastContainer />
     
       <RouterProvider router={myRoute} />
     </>

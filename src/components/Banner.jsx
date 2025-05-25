@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import bannerImg3 from "../assets/images/bannerImg3.png";
 import { IoSearchOutline } from "react-icons/io5";
+import Aos from "aos";
 
 const Banner = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000, once: true }); // ✅ Initialize once with optional config
+  }, []);
   return (
     <>
       <section
@@ -16,7 +20,7 @@ const Banner = () => {
       >
         <div className="container">
           <div className="banner_text">
-            <h1 className="text-[35px] lg:text-[80px] font-poppins font-semibold text-[#fff] text-center  capitalize">
+            <h1 data-aos="zoom-in-up" className="text-[35px] lg:text-[80px] font-poppins font-semibold text-[#fff] text-center  capitalize">
               Make your interior more minimalistic & modern
             </h1>
             <h2 className="  lg:w-[544px] lg:text-xl text-lg font-poppins font-normal text-[#fff]  text-center mx-auto mt-[11px] mb-[48px]">

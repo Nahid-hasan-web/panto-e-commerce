@@ -63,7 +63,7 @@ const ResponsiveNav = () => {
               <div onClick={()=>setOpenCart(!openCart)} className="relative flex items-center space-x-2">
                 <FiShoppingCart className="text-white text-xl cursor-pointer hover:text-gray-300 transition duration-300 ease-in-out" />
                 <span className="absolute top-0 right-0 text-sm bg-orange-500 text-white rounded-full w-5 h-5 flex items-center justify-center">
-                  0
+                  {sliceProductid.length}
                 </span>
               </div>
               <button onClick={()=>setShowmenu(!showmenu)} className="w-[30px] h-[30px] rounded-[5px] border-2 border-white flex justify-center items-center text-xl text-white">
