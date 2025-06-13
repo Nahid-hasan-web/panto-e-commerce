@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router-dom';
 const AllProductCards = () => {
   // --------------- pagination state and functions ---------------
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 7; // You've already set this in your component
+  const itemsPerPage = 10; // You've already set this in your component
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
